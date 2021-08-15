@@ -1,4 +1,4 @@
-module github.com/sanity-io/litter
+module github.com/phith0n/litter
 
 go 1.14
 
