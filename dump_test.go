@@ -12,7 +12,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/sanity-io/litter"
+	"github.com/phith0n/litter"
 )
 
 func Function(arg1 string, arg2 int) (string, error) {
