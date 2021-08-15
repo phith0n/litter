@@ -1,11 +1,11 @@
 []interface {}{
   litter_test.options{
-    Compact: bool"off",
-    StripPackageNames: bool"off",
-    HidePrivateFields: bool"on",
+    Compact: "off",
+    StripPackageNames: "off",
+    HidePrivateFields: "on",
     HomePackage: "",
     Separator: " ",
-    StrictGo: bool"off",
+    StrictGo: "off",
   },
   &litter_test.BasicStruct{
     Public: 1,

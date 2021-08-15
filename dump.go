@@ -247,9 +247,6 @@ func (s *dumpState) dumpChan(v reflect.Value) {
 
 func (s *dumpState) dumpCustom(v reflect.Value, buf *bytes.Buffer) {
 
-	// Dump the type
-	s.dumpType(v)
-
 	if s.config.Compact {
 		s.write(buf.Bytes())
 		return
